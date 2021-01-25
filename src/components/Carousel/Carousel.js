@@ -1,5 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel'
-import logoImage from '../../images/logoImage.jpg'
+import HangLooseWebHome from '../../images/HangLooseWebHome.png'
+import WorkItOut from '../../images/WorkItOut.png'
+
+import './Carousel.css'
 
 export default function CarouselComponent(){
     return (
@@ -7,24 +10,24 @@ export default function CarouselComponent(){
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src={ logoImage }
+                src={ HangLooseWebHome }
                 alt="First slide"
                 />
                 <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>HangLoose (Web)</h3>
+                <p>Online community maintained database of hammocking locations</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src="holder.js/800x400?text=Second slide&bg=282c34"
+                src={ WorkItOut }
                 alt="Second slide"
                 />
 
                 <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>Work It Out</h3>
+                <p>Basic index of workouts based off muscle group!</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
