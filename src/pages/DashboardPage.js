@@ -8,7 +8,7 @@ export default function DashboardPage(props) {
                 <div className="externalLinks">
                 <a href="https://www.linkedin.com/in/tyfarhner/">LinkedIn</a>
                 <a href="https://github.com/TylerFarhner">GitHub</a>
-                <a href="">Resume</a>
+                <a href="https://drive.google.com/file/d/1VDQpnqBbBAn1g4AGxule_hhweE9UuOXg/view?usp=sharing">Resume</a>
                 </div>
                 {/* <CarouselComponent /> */}
             </main>
