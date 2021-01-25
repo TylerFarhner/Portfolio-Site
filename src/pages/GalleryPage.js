@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 // IMAGES
 import HangLooseWebHome from '../images/HangLooseWebHome.png'
 import WorkItOut from '../images/WorkItOut.png'
-import HLM from '../images/HLM.mp4'
+// import HLM from '../images/HLM.mp4'
 
 
 export default function GalleryPage(props) {
