@@ -3,5 +3,70 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 0.705);
 }
 
+
+.DashboardPage {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+                  rgba(0, 0, 0, 0.6)),
+                    url('https://i.pinimg.com/originals/96/8f/be/968fbedfa320f3b9827f72a9b464e9bc.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Page {
+  display: flex;
+  flex-direction: column;
+}
+
+.tylerFarhner {
+  font-size: 100px;
+}
+
+.externalLinks {
+  display: flex;
+  text-decoration: none;
+  font-size: large;
+  color: white;
+  justify-content: space-evenly;
+}
+
+.externalLinks:hover {
+  cursor: pointer;
+}
+
+Footer {
+  color: rgba(255, 99, 71, 0.452);
+}
+
+/* ABOUT PAGE */
+
+.AboutPage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.profileImage {
+  border-radius: 50%;
+}
+
+/* GALLERY PAGE */
+
+.GalleryPage {
+  flex: 1
+}
+
+.Carousel.Item {
+  color: red
+}

@@ -1,18 +1,16 @@
+import {  Link } from 'react-router-dom'
 import './Header.css'
-import logoImage from '../../images/logoImage.jpg'
+// import logoImage from '../../images/logoImage.jpg'
 
 export default function Header(){
     return (
         <header className="Header">
-            <img src={logoImage} alt="logo"/>
-            <h1>
-                Tyler Farhner
-            </h1>
             <nav>
                 <ul className="NavLinks">
-                    <li>Home</li>
-                    <li>Gallery</li>
-                    <li>Contact</li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="About">About</Link></li>
+                        <li><Link to="Gallery">Gallery</Link></li>
+                        {/* <li><Link to="Creations">Creations</Link></li> */}
                 </ul>
             </nav>
         </header>
