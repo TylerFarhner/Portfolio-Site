@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel'
+import logoImage from '../../images/logoImage.jpg'
 
 export default function CarouselComponent(){
     return (
@@ -6,7 +7,7 @@ export default function CarouselComponent(){
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src="holder.js/800x400?text=First slide&bg=373940"
+                src={ logoImage }
                 alt="First slide"
                 />
                 <Carousel.Caption>
@@ -18,7 +19,7 @@ export default function CarouselComponent(){
                 <img
                 className="d-block w-100"
                 src="holder.js/800x400?text=Second slide&bg=282c34"
-                alt="Third slide"
+                alt="Second slide"
                 />
 
                 <Carousel.Caption>
