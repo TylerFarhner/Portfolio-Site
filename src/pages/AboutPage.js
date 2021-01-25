@@ -7,9 +7,9 @@ export default function AboutPage(props) {
         <main className="AboutPage">
             <h1>About Me</h1>
             <div>
-                <img className="profileImage" src={ logoImage } />
-                <p><img src={ locationLogo } /> Seattle, Washington</p>
-                <p><img src={ codeBlock } /> Freelance Software Engineer</p>
+                <img className="profileImage" src={ logoImage } alt="whoops" />
+                <p><img src={ locationLogo } alt="whoops" /> Seattle, Washington</p>
+                <p><img src={ codeBlock } alt="whoops" /> Freelance Software Engineer</p>
                 
             </div>
             <div>
