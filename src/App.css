@@ -7,6 +7,23 @@
   color: rgba(255, 255, 255, 0.705);
 }
 
+.BoxLink {
+  color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 0 10px 0 10px;
+  box-shadow: 0px 1px 2px 1px black;
+}
+
+.BoxLink:hover {
+  color: rgba(255, 255, 255, 0.582);
+  color: black;
+  text-decoration: none;
+  background-color: whitesmoke;
+}
+
 
 .DashboardPage {
   flex-grow: 1;
