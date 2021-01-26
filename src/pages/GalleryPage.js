@@ -13,7 +13,7 @@ export default function GalleryPage(props) {
             <Carousel >
 
                 <Carousel.Item >
-                    <a href='https://workitout.netlify.app'>
+                    <a href='https://workitout.netlify.app' target="_blank" rel="noreferrer">
                         <img
                         className="d-block w-100"
                         src={ WorkItOut }
@@ -23,7 +23,7 @@ export default function GalleryPage(props) {
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <a href="https://www.hanglooseseir.herokuapp.com">
+                    <a href="https://www.hanglooseseir.herokuapp.com" target="_blank" rel="noreferrer">
                         <img
                         className="d-block w-100"
                         src={ HangLooseWebHome }
