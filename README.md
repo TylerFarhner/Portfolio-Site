@@ -1,1 +1,1 @@
-# Welcome to the behind the scenes of [my portfolio!](www.farhner.dev)
+# Welcome to the behind the scenes of [my portfolio!](http://www.farhner.dev)
