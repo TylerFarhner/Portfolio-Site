@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 // IMAGES
 import HangLooseWebHome from '../images/HangLooseWebHome.png'
 import WorkItOut from '../images/WorkItOut.png'
+import HLM from '../images/HLM.gif'
 // import HLM from '../images/HLM.mp4'
 
 
@@ -28,6 +29,16 @@ export default function GalleryPage(props) {
                         className="d-block w-100"
                         src={ HangLooseWebHome }
                         alt="Second slide"
+                        />
+                    </a>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <a href="https://github.com/TylerFarhner/HLM" target="_blank" rel="noreferrer">
+                        <img
+                        className="d-block w-100"
+                        src={ HLM }
+                        alt="Third Slide"
                         />
                     </a>
                 </Carousel.Item>
