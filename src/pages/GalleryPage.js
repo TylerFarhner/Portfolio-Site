@@ -13,24 +13,22 @@ export default function GalleryPage(props) {
             <h1>Gallery</h1>
             <Carousel >
 
-                
+            <Carousel.Item>
+                    <a href="https://github.com/TylerFarhner/HLM" target="_blank" rel="noreferrer">
+                        <img
+                        className="d-block w-100"
+                        src={ HLM }
+                        alt="First Slide"
+                        />
+                    </a>
+                </Carousel.Item>
 
                 <Carousel.Item>
                     <a href="https://www.hanglooseseir.herokuapp.com" target="_blank" rel="noreferrer">
                         <img
                         className="d-block w-100"
                         src={ HangLooseWebHome }
-                        alt="First slide"
-                        />
-                    </a>
-                </Carousel.Item>
-
-                <Carousel.Item>
-                    <a href="https://github.com/TylerFarhner/HLM" target="_blank" rel="noreferrer">
-                        <img
-                        className="d-block w-100"
-                        src={ HLM }
-                        alt="Second Slide"
+                        alt="Second slide"
                         />
                     </a>
                 </Carousel.Item>
