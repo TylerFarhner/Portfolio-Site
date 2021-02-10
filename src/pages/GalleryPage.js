@@ -13,22 +13,14 @@ export default function GalleryPage(props) {
             <h1>Gallery</h1>
             <Carousel >
 
-                <Carousel.Item >
-                    <a href='https://workitout.netlify.app' target="_blank" rel="noreferrer">
-                        <img
-                        className="d-block w-100"
-                        src={ WorkItOut }
-                        alt="First slide"
-                        />
-                    </a>
-                </Carousel.Item>
+                
 
                 <Carousel.Item>
                     <a href="https://www.hanglooseseir.herokuapp.com" target="_blank" rel="noreferrer">
                         <img
                         className="d-block w-100"
                         src={ HangLooseWebHome }
-                        alt="Second slide"
+                        alt="First slide"
                         />
                     </a>
                 </Carousel.Item>
@@ -38,7 +30,17 @@ export default function GalleryPage(props) {
                         <img
                         className="d-block w-100"
                         src={ HLM }
-                        alt="Third Slide"
+                        alt="Second Slide"
+                        />
+                    </a>
+                </Carousel.Item>
+
+                <Carousel.Item >
+                    <a href='https://workitout.netlify.app' target="_blank" rel="noreferrer">
+                        <img
+                        className="d-block w-100"
+                        src={ WorkItOut }
+                        alt="Third slide"
                         />
                     </a>
                 </Carousel.Item>
