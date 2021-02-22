@@ -8,7 +8,7 @@ export default function DashboardPage(props) {
                 <div className="externalLinks">
                 <a className="BoxLink" href="https://www.linkedin.com/in/tyfarhner/" target="_blank" rel="noreferrer">LinkedIn</a>
                 <a className="BoxLink" href="https://github.com/TylerFarhner" target="_blank" rel="noreferrer">GitHub</a>
-                <a className="BoxLink" href="https://drive.google.com/file/d/1aXexts5zJGlemSB30xBQAciLaOBGgya4/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+                <a className="BoxLink" href="https://drive.google.com/file/d/1YyTn1zfCO8nJpKVF0v9YN6Oc7YmOFk1f/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
                 </div>
                 {/* <CarouselComponent /> */}
             </main>
