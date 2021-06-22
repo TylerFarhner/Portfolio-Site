@@ -1,6 +1,4 @@
 import logoImage from '../images/logoImage.jpg'
-import locationLogo from '../images/locationLogo.png'
-import codeBlock from '../images/codeBlock.png'
 
 export default function AboutPage(props) {
     return (
