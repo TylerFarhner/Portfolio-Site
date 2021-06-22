@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+
 .App {
   min-height: 100vh;
   display: flex;
@@ -34,7 +36,8 @@
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6),
                   rgba(0, 0, 0, 0.6)),
-                    url('https://i.pinimg.com/originals/96/8f/be/968fbedfa320f3b9827f72a9b464e9bc.jpg');
+                    /* url('https://i.pinimg.com/originals/96/8f/be/968fbedfa320f3b9827f72a9b464e9bc.jpg'); */
+                    url('../src/images/PortfolioSiteV2Background.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -45,6 +48,7 @@
 }
 
 .tylerFarhner {
+  font-family: 'Yesteryear', cursive;
   font-size: 100px;
 }
 

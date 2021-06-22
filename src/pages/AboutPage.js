@@ -5,19 +5,19 @@ import codeBlock from '../images/codeBlock.png'
 export default function AboutPage(props) {
     return (
         <main className="AboutPage">
-            <h1>About Me</h1>
+            {/* <h1>About Me</h1> */}
             <div>
                 <img className="profileImage" src={ logoImage } alt="whoops" />
-                <p><img src={ locationLogo } alt="whoops" /> Seattle, Washington</p>
-                <p><img src={ codeBlock } alt="whoops" /> Freelance Software Engineer</p>
+                <h2>Tyler Farhner</h2>
+                <h3>Seattle</h3>
+                <p>Sofware Engineer, Custom Clother, and Cameraman</p>
                 
             </div>
             <div>
                 <p className="aboutText">
-                    Seattle-based full-stack Software Engineer, leaving my mark one application at a time. 
-                    I bring a straight-forward, user-centric approach to my design, to allow for a smooth and enjoyable experience. 
-                    Specializing in the M.E.R.N. Stack I utilize up-to-date technologies, keeping things current and fresh. 
-                    I aim to deliver easy and affordable solutions to everyone's web and mobile application needs.
+                    If you're reading this then you get to see my site under construction! I am currently working on 
+                    my newest rendition, please check back later today for updated pages, info, and links! If you need to reach me
+                    immediately simply contact me through instagram @Tyfriedrice or by email: tyler@farhner.dev
                 </p>
             </div>
         </main>
