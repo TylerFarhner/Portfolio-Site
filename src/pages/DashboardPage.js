@@ -39,7 +39,7 @@ export default function DashboardPage(props) {
                 <div className="externalLinks">
                 <Link className="BoxLink" link to="Coding" rel="noreferrer">Coding</Link>
                 <Link className="BoxLink" link to="Clothing" rel="noreferrer">Clothing</Link>
-                <Link className="BoxLink" link to="CameraWork" rel="noreferrer">Cameras</Link>
+                <Link className="BoxLink" href="https://www.raincityshooters.com" rel="noreferrer">Cameras</Link>
                 </div>
                 {/* <CarouselComponent /> */}
             </main>
