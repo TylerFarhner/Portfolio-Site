@@ -40,7 +40,7 @@ export default function DashboardPage(props) {
                 {/* <Link className="BoxLink" link to="Coding" rel="noreferrer">Coding</Link> */}
                 <a className="BoxLink" href="https://github.com/TylerFarhner" rel="noreferrer">Coding</a>
                 {/* <Link className="BoxLink" link to="Clothing" rel="noreferrer">Clothing</Link> */}
-                <a className="BoxLink" href="https://www.instagram.com/otbprd/" rel="noreferrer">Clothing</a>
+                <a className="BoxLink" href="https://www.trndsndr.com/" rel="noreferrer">Clothing</a>
                 <a className="BoxLink" href="https://www.raincityshooters.com" rel="noreferrer">Cameras</a>
                 </div>
                 {/* <CarouselComponent /> */}
