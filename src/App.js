@@ -8,7 +8,7 @@ import Footer from './components/Footer/Footer'
 // PAGES
 import DashboardPage from './pages/DashboardPage'
 // import CreationsPage from './pages/CreationsPage'
-// import GalleryPage from './pages/GalleryPage'
+import GalleryPage from './pages/GalleryPage'
 import AboutPage from './pages/AboutPage'
 import CameraPage from './pages/CameraPage'
 import CodingPage from './pages/CodingPage'
