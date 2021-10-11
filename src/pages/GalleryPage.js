@@ -1,9 +1,9 @@
 import Carousel from 'react-bootstrap/Carousel'
 
 // IMAGES
-import HangLooseWebHome from '../images/HangLooseWebHome.png'
-import WorkItOut from '../images/WorkItOut.png'
-import HLM from '../images/HLM.gif'
+// import HangLooseWebHome from '../images/HangLooseWebHome.png'
+// import WorkItOut from '../images/WorkItOut.png'
+// import HLM from '../images/HLM.gif'
 // import HLM from '../images/HLM.mp4'
 
 import Portfolio1 from '../images/PortfolioPic (1).jpg'
