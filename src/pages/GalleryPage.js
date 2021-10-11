@@ -6,6 +6,8 @@ import WorkItOut from '../images/WorkItOut.png'
 import HLM from '../images/HLM.gif'
 // import HLM from '../images/HLM.mp4'
 
+import Portfolio1 from '../images/PortfolioPic (1).jpg'
+
 
 export default function GalleryPage(props) {
     return (
@@ -13,7 +15,7 @@ export default function GalleryPage(props) {
             <h1>Gallery</h1>
             <Carousel >
 
-            <Carousel.Item>
+            {/* <Carousel.Item>
                     <a href="https://github.com/TylerFarhner/HLM" target="_blank" rel="noreferrer">
                         <img
                         className="d-block w-100"
@@ -41,16 +43,17 @@ export default function GalleryPage(props) {
                         alt="Third slide"
                         />
                     </a>
+                </Carousel.Item> */}
+
+                <Carousel.Item>
+                        <img
+                        className="d-block w-100"
+                        src={ Portfolio1 }
+                        alt="First Slide"
+                        />
                 </Carousel.Item>
 
-                {/* <Carousel.Item>
-                    <div>
-                        <video style ={{width:"80%",height:"788px"}}>
-                            <source src={ HLM } type="video/mp4"></source>
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                </Carousel.Item> */}
+                
 
             </Carousel>
         </main>

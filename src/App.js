@@ -21,7 +21,7 @@ function App(props) {
         <Switch>
           <Route exact path ='/' render={props => <DashboardPage />} />
           {/* <Route exact path ='/Creations' render={props => <CreationsPage />} /> */}
-          {/* <Route exact path ='/Gallery' render={props => <GalleryPage />} /> */}
+          <Route exact path ='/Gallery' render={props => <GalleryPage />} />
           <Route exact path ='/About' render={props => <AboutPage />} />
           <Route exact path ='/CameraWork' render={props => <CameraPage />} />
           <Route exact path ='/Coding' render={props => <CodingPage />} />
