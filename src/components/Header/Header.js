@@ -32,6 +32,7 @@ export default function Header(){
                 <ul className="NavLinks">
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="About">About</Link></li>
+                        <li><Link to="Gallery">Gallery</Link></li>
                 </ul>
             </nav>
         </header>
